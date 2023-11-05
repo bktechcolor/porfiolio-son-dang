@@ -1,8 +1,5 @@
 <template>
-  <main class="max-w-[1100px] mx-auto py-20">
-    <router-view></router-view>
-  </main>
-  
+ <router-view></router-view>
 </template>
 <script lang="ts" setup>
 </script>
@@ -12,6 +9,9 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+}
+body {
+  font-family: 'roboto', sans-serif !important;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

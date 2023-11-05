@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 const manifest = {
-  name: 'PWAGram Talk',
-  short_name: 'PWAGram',
-  description: 'This is web application for dating',
+  name: 'SondhCV',
+  short_name: 'SondhCV',
+  description: 'This is my portfolio web app build in vue3 + vite + typescript + PWA technologies',
   theme_color: '#ffffff',
   icons: [
     {
