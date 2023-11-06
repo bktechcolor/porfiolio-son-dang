@@ -9,7 +9,11 @@
   </template>
   
   <script setup lang="ts">
-  const props = defineProps({
-    href: String
+  import { defineProps } from 'vue';
+  const { href } = defineProps({
+    href: {
+      type:String,
+      required:true
+    }
   })
   </script>

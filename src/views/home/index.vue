@@ -62,13 +62,9 @@
     
 </template>
 <script setup lang="ts">
-    
-    import {ref , onMounted} from 'vue'
- 
-    const viewData:any = ref(null)
 
 </script>
 
 <style scoped>
 
-</style>../../JsonData/data
+</style>
